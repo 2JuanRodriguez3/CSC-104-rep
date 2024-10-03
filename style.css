@@ -1,0 +1,29 @@
+body{
+	background:
+	linear-gradient(to right, #0056b3, #fc466b);
+}
+
+h1{
+	text-align: center;
+	color: #fafafa;
+	font-family:Georgia, 'Times New Roman', Times, serif
+	
+}
+h2{
+	color: #ffffff;
+	font-family: times new roman, arial;
+}
+
+h3{
+	color: #ffffff;
+	font-family: times new roman, arial;
+}
+
+p{
+	color: #d0ff00;
+	font-family: times new roman, arial;
+}
+
+a:visited{
+	color: rgb(255, 0, 140);
+}
