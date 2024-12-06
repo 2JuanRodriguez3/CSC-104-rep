@@ -1,0 +1,93 @@
+ /* Reset default browser styling */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+header {
+    background-color: #8925cc;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.news, .live-scores, .sports-categories {
+    background-color: rgb(60, 232, 238);
+    box-shadow: 0 2px 5px rgba(255, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 32%;
+    border-radius: 8px;
+}
+
+.news h2, .live-scores h2, .sports-categories h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.news ul, .live-scores ul, .sports-categories ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.news li, .live-scores li, .sports-categories li {
+    margin-bottom: 15px;
+}
+
+.sports-categories a {
+    color: #ff0080;
+    text-decoration: none;
+}
+
+.sports-categories a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+ul{
+    color: #2b0d0d;
+}
+
