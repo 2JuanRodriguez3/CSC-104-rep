@@ -6,16 +6,20 @@
 }
 
 body {
-    background-color: #f4f4f4;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #7c062d;
+    font-family: Arial, sans-serif;
     font-size: larger;
 }
 
 header {
-    background-color: #8925cc;
-    color: rgb(0, 0, 0);
+    background-color: #0d0e1b;
+    color: rgb(255, 255, 255);
     padding: 20px;
     text-align: center;
+}
+
+h2{
+    color: rgb(0, 0, 0);
 }
 
 header h1 {
@@ -46,7 +50,7 @@ nav a:hover {
 }
 
 .news, .live-scores, .sports-categories {
-    background-color: rgb(60, 232, 238);
+    background-color: rgb(169, 189, 117);
     box-shadow: 0 2px 5px rgba(255, 0, 0, 0.1);
     margin-bottom: 20px;
     padding: 20px;
@@ -77,17 +81,13 @@ nav a:hover {
     text-decoration: underline;
 }
 
-footer {
-    background-color: #111;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
 ul{
     color: #2b0d0d;
 }
 
+img {
+    width: 150px;
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover;
+}
